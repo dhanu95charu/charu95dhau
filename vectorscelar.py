@@ -1,0 +1,16 @@
+import numpy as np
+arr=np.array([[1,2,3],[1,2,3]])
+print(arr)
+a=np.zeros((2,2))
+print(a)
+b=np.full((3,3),6)
+print(b)
+c=np.ones(3)
+print(c)
+d=np.transpose(arr)
+print(d)
+e=np.identity(5)
+print(e)
+f=np.diag(arr)
+print(f)
+
